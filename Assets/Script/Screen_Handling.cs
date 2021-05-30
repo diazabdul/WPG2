@@ -8,6 +8,7 @@ public class Screen_Handling : MonoBehaviour
     public string screen;
     public void OpenMenuScene()
     {
+        
         SceneManager.LoadScene(screen);
         Debug.Log("TerClick");
     }
