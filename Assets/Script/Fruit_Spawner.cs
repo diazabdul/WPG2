@@ -4,7 +4,7 @@ using UnityEngine;
 public class Fruit_Spawner : MonoBehaviour
 {
     [SerializeField]
-    private GameObject[] fruits;
+    public GameObject[] fruits;
 
     private BoxCollider2D col;
     float x1, x2;

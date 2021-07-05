@@ -21,11 +21,11 @@ public class Movement_player : MonoBehaviour
         float horiz = Input.GetAxisRaw("Horizontal");
         Rb.velocity = new Vector2(ms * horiz, Rb.velocity.y);
 
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
         {
             kiri.flipX = true;
         }
-        if (Input.GetKey(KeyCode.D))
+        if (Input.GetKey(KeyCode.D)||Input.GetKey(KeyCode.RightArrow))
         {
             kiri.flipX = false;
         }

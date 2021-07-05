@@ -6,6 +6,7 @@ public class Heart_Character : MonoBehaviour
 {
 
     public GameObject[] heart;
+ 
     private int life;
     private bool dead;
 
